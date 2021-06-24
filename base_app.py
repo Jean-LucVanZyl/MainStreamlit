@@ -54,8 +54,7 @@ from nltk import pos_tag
 from nlppreprocess import NLP
 nlp = NLP()
 
-# Picture
-image = "Images/pic.jpg"
+
 
 # Cleaning data
 def cleaner(col):
@@ -105,8 +104,7 @@ raw = pd.read_csv("resources/train.csv")
 # The main function where we will build the actual app
 def main():
     """Tweet Classifier App with Streamlit """
-    image = "Images/pic.jpg"
-
+   
     # Creates a main title and subheader on your page -
     # these are static across all pages
     st.title("Climate Change Analysis")
